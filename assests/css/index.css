@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.head
+{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+.filter
+{
+    width: 100%;
+    height: 100%;
+   background:-webkit-radial-gradient(  rgba(255, 255, 255, 0) ,)  ;
+}
+
+.logo
+{
+    width: 30%;
+    height: 55vh;
+    position: absolute;
+    bottom:25vh; 
+    right: 35%; 
+    background-image: url(../img/logo.png);
+    background-size: cover;  
+}
+
+.slogan span 
+{
+    color: rgb(207, 137, 7);
+}
+
+.slogan
+{
+    width: 50%;
+    height: 10vh;
+    position: absolute;
+    top: 80vh ;     
+    left:25% ; 
+}
+
+.slogan p 
+{
+    height: 100%;
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Lalezar', cursive;
+    color: white;
+}
+
+
+.contactus
+{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #283536;
+    background-image: url(../img/cloud.PNG);
+    background-size: cover;  
+    background-position: center;
+   
+}
+
+.contactus .container
+{
+    width: 80%;
+    height: 70vh;
+    margin: auto ; 
+    background-color:#0f1311 ;
+    box-sizing: border-box;
+ margin-top: 20vh;
+}
+
+.contactus .form
+{
+    width: 33.3%;
+    height: 100%;
+    display: inline;
+    float: left;
+box-sizing: border-box;
+   
+}
+
+.contactus .info
+{
+    width: 33.3%;
+height: 100%;
+display: inline;
+float: left;
+}
+
+.contactus .image
+{
+width: 33.3%;
+height: 100%;
+display: inline;
+float: left;
+background-image: url(../img/form_.jpg);
+background-position: center;
+background-size: cover;
+}
+
+.form  h1
+{
+text-align: center;
+text-transform: uppercase;
+color:orange ; 
+margin-top: 25%;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+letter-spacing: 3px;
+margin-bottom: 5%;
+}
+
+.form label
+{
+    margin: auto;
+    display: block;
+    color: grey ; 
+    font-size: larger;
+}
+.form input
+{
+    display: block;
+    height: 10%;
+    width: 90%;
+    margin-bottom: 5%;
+}
+
+#t
+{
+    display: inline;
+    height: 15px;
+    width: 15px;
+}
+
+
+
+.form  form
+{
+    width: 90%;
+    height: 70%;
+    margin-left: auto;
+   
+
+}
+
+.form p 
+{
+    display: inline;
+color: grey ;
+}
+
+
+#term a
+{
+color: #c2984c;
+text-decoration: none ; 
+}
+
+.form input:nth-last-child(1)
+{
+background-color: #c2984c;
+}
+
+/*/////////////////////////////////*/
+
+.p
+{
+   
+    height: 30%;
+    width: 100%;
+      
+}
+.p:nth-child(1)
+{
+    margin-top: 10%;
+}
+.p h2
+{
+    margin-bottom: 3%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #c2984c;
+}
+.p  ul
+{
+    list-style: none;
+}
+.p li
+{
+   text-align: center;
+   color: grey;
+   font-family:Verdana, Geneva, Tahoma, sans-serif ;
+   line-height: 20px;
+}

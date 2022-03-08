@@ -1,0 +1,155 @@
+nav {
+    width: 100%;
+    height: 11vh ; 
+   box-sizing: border-box;
+   position: fixed ; 
+   z-index: 100;
+   background-color:  ;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&display=swap');
+
+.headlogo
+{
+    overflow: hidden;
+    display: inline;
+    height: 100%;
+   width: 30%;
+   float: left;
+   box-sizing: border-box;
+
+}
+
+.fa-solid
+{
+    margin-right: 10px;
+}
+
+.navitems 
+{
+    display: flex;
+    height: 100%;
+    width: 70%;
+    float: right;
+}
+
+.headlogo h1
+{
+   height: 100%;
+   text-align: center;
+   padding-top: 4vh;
+   font-family:  'BhuTuka Expanded One', cursive;
+   font-weight: 200px;
+   color: white;
+   text-shadow: 0px 0px 2px (228, 156, 85);
+   position: relative;
+
+  
+}
+
+.headlogo h1::before
+{
+    content: "🎓";
+    position: absolute;
+    top:0 ;
+    left:15%;
+    box-sizing: border-box; 
+    font-size: xx-large;
+   
+}
+
+.ull 
+{
+    width: 60%;
+    height: 100%;
+
+}
+
+.ull li
+{
+    display: inline;
+    width: 25%;
+
+    float: left;
+    height: 100%;
+
+}
+
+.ull li a
+{
+box-sizing: border-box;
+width: 80%;
+display: block ; 
+height: 60% ;
+margin: auto;
+margin-top: 3vh ;
+text-decoration: none;
+color: white;
+text-align: center;
+padding-top: 2vh;
+box-sizing: border-box;
+border-radius: 8pt;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+font-size: larger;
+}
+
+.search
+{
+    width: 40%;  
+    overflow: hidden;
+}
+
+.search input
+{
+height: 5vh;
+margin-left: 10%;
+display: inline;
+float: left;
+margin-top: 4vh;
+margin-right: 5%;
+border-radius: 2pt;
+box-sizing: border-box;padding: 10PX;
+background-color: rgba(247, 247, 247, 0.322);
+outline: 0;
+}
+
+.search a 
+{
+    width: 10%;
+    display: inline-block;
+    margin-top: 3.5vh;
+    box-sizing: border-box;
+    height:5.5vh ;
+    border-radius: 3pt;
+    text-align: right;
+    box-sizing: border-box;
+    padding-top: 10px ;
+    font-size: 20px;
+    color:white ;
+   
+   
+}
+
+
+#active  , .ull li a:hover
+{
+    background-color: rgba(255, 166, 0, 0) ;
+    color: #FF9A00;
+}
+
+
+
+::placeholder
+{
+   position: absolute;
+   TOP: 25% ;
+   width: 80%;
+   color: rgb(70, 68, 68);
+}
+
+
+.search a:hover
+{
+    color: #FF9A00;
+} 
+
